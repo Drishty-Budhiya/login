@@ -803,6 +803,9 @@ footer .copyright{
 #Single-pro-details .Single-pro-details span{
     line-height: 25px;
 }
+#product1 .others h2{
+    text-align: center;
+}
 
 /* Blog Page */
 
@@ -1114,7 +1117,9 @@ footer .copyright{
     justify-content: space-between;
     
 }
-
+#product1 .others h2{
+    text-align: center;
+}
 
 
 
