@@ -5,6 +5,7 @@
     padding:0;
     box-sizing: 'Spartan',sans-serif;
     font-family: 'Spartan',Arial, Helvetica, sans-serif;
+    
 }
 
 h1 {
@@ -795,7 +796,7 @@ footer .copyright{
 #Single-pro-details .Single-pro-details button{
     background: #088178;
     color: #fff;
-    width 30%;
+    width: 30%;
     height: 20%;
 }
 
@@ -1248,6 +1249,10 @@ footer .copyright{
 }
 
 
+
+
+
+
 /* Start Media Query */
 
 @media (max-width:799px) {
@@ -1465,3 +1470,99 @@ footer .copyright{
         padding: 20px;
     }
 }
+/* Login Page */
+   #login-body{
+    margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: url(Image/Blog/pexels-photo-1651165.jpeg) ;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      }
+
+  .login-container {
+    width: 300px; /* Adjust the width as needed */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 50px auto;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px auto;
+    width: 300px;
+    max-width: 400px;
+
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    cursor: pointer;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px 4px 0 0;
+
+  }
+
+  .tab:hover {
+    background-color: #0056b3;
+  }
+
+  .active-tab {
+    background-color: #0056b3;
+  }
+
+  
+  .login-form,
+  .signup-form {
+    display: none;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-group button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .form-group button:hover {
+    background-color: #0056b3;
+  }
+
+
+  .active-tab {
+    border-bottom: 2px solid #000; /* Add a border or style to indicate the active tab */
+  }
+  
